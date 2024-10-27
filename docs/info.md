@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This design uses flipflops to take one input of true or false, and gives different outputs depending on the current state. 
+The state is updated manually with a push button to control the clock
 
 ## How to test
 
-Explain how to use your project
+have the input true, use button to move all the way "up"
+have the input false, use button to move all the way "down"
+be on the 2nd floor going "up" and then go "down"
+be on the 2nd floor going "down" and then go "up"
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+3 LEDs, each on indicating a different floor
+1 push button to control clock
+"up" or "down" switch
